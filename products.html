@@ -12,11 +12,10 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100 bg-cream">
-    
     <nav class="navbar navbar-expand-lg bg-cinnamon sticky-top">
         <div class="container">
             <div class="d-flex align-items-center">
-                <img src="images/logo2.png" alt="Logo" width="65" height="65" class="me-3"
+                <img src="images/logo2.png" alt="Logo" width="55" height="55" class="me-3"
                     style="border: 2px solid #36241D; border-radius: 8px;">
                 <div class="d-none d-md-flex flex-column">
                     <span class="fw-bold fs-5 text-espresso">Kaffe Party</span>
@@ -43,7 +42,83 @@
     </nav>
 
     <main class="container mt-5 flex-grow-1">
-        <h1 class="display-4 text-cinnamon text-center pb-3">Välkommen till Kaffe Party!</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-cinnamon">Kaffemaskiner</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4 border-espresso bg-cinnamon">
+                            <img src="/images/coffe-machine-1.jpg" class="card-img-top" alt="Kaffemaskin 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Di Pacci Coffee Company</h5>
+                                <p class="card-text">Modern och elegant espresso maskin med vit färg och minimalistisk
+                                    design. Perfekt för hem och café. Enkel att använda och rensa. Genomtänkt för en
+                                    perfekt kaffeupplevelse varje gång.</p>
+                                <p class="card-text"><strong>Pris:</strong> 15000 kr</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4 border-espresso bg-cinnamon">
+                            <img src="/images/coffe-machine-2.jpg" class="card-img-top" alt="Kaffemaskin 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Di Pacci Coffee Company</h5>
+                                <p class="card-text">En blå espresso maskin som med sin unika färg och praktiska
+                                    funktioner är perfekt för både hem och kafé. Enkel att använda och ger en utmärkt
+                                    kaffeupplevelse.</p>
+                                <p class="card-text"><strong>Pris:</strong> 18000 kr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-cinnamon">Kaffe Party</h2>
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <div class="card border-espresso bg-cream">
+                            <div class="card-body">
+                                <h3 class="card-title text-cinnamon">Företag</h3>
+                                <p class="card-text">Vi erbjuder anpassade kaffeparty för företag. Oavsett om det är en
+                                    mindre teambuilding eller en stor konferens, vi skräddarsyr din kaffeupplevelse.
+                                    Våra kaffeparty inkluderar:</p>
+                                <ul class="card-text">
+                                    <li><strong>Specialty Coffee:</strong> Vi använder bara de mest exklusiva
+                                        kaffebönorna från hela världen för att säkerställa att varje kopp kaffe är en
+                                        unik upplevelse.</li>
+                                    <li><strong>Skräddarsydd Meny:</strong> Vi arbetar tätt tillsammans med dig för att
+                                        skapa en meny som passar dina behov och önskemål.</li>
+                                    <li><strong>Professionell Service:</strong> Våra utbildade baristar ser till att
+                                        varje deltagare får en utmärkt kaffeupplevelse.</li>
+                                    <li><strong>Interaktiva Stationer:</strong> Vi erbjuder också interaktiva stationer
+                                        där dina anställda kan delta i kaffekokning och andra aktiviteter.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <div class="card border-espresso bg-cream">
+                            <div class="card-body">
+                                <h3 class="card-title text-cinnamon">Privatpersoner</h3>
+                                <p class="card-text">För privatpersoner erbjuder vi kaffepartyn som är perfekt för
+                                    hemliga middagar, födelsedagar eller bara en dag att njuta av god kaffe. Våra
+                                    kaffeparty'n inkluderar:</p>
+                                <ul class="card-text">
+                                    <li><strong>Personlig Konsultation:</strong> Vi erbjuder en personlig konsultation
+                                        för att förstå dina önskemål och behov.</li>
+                                    <li><strong>Skärddarsydd Meny:</strong> Våra menyer är skräddarsydda för att passa
+                                        varje tillfälle, oavsett om det är en intim eller en stor fest.</li>
+                                    <li><strong>Utmärkt Service:</strong> Våra experter ser till att varje gäst får en
+                                        utmärkt kaffeupplevelse.</li>
+                                    <li><strong>Bakverk och Smaker:</strong> Vi erbjuder en bred utbud av bakverk och
+                                        smaker för att passa alla smaklökar.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="bg-darkroast text-white py-3 mt-5">
@@ -57,7 +132,6 @@
         // Uppdaterar år automatiskt
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
-
 </body>
 
 </html>

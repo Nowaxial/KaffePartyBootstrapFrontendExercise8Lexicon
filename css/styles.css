@@ -8,3 +8,8 @@
 .text-cinnamon   { color: #D98C53 !important; }
 .text-darkroast  { color: #231709 !important; }
 
+.border-espresso   
+{ 
+    border: 2px solid #36241D !important; 
+    border-radius: 8px !important; 
+}
