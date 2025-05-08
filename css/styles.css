@@ -13,3 +13,13 @@
     border: 2px solid #36241D !important; 
     border-radius: 8px !important; 
 }
+
+
+.breadcrumb-item a {
+    color: #36241D !important; 
+    transition: color 0.3s ease;
+}
+
+.breadcrumb-item a:hover {
+    color: #D98C53 !important; 
+}

@@ -12,7 +12,7 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100 bg-cream">
-    
+
     <nav class="navbar navbar-expand-lg bg-cinnamon sticky-top">
         <div class="container">
             <div class="d-flex align-items-center">
@@ -41,17 +41,95 @@
         </div>
     </nav>
 
-    <main class="container mt-5 flex-grow-1">
-        <h1 class="display-4 text-cinnamon text-center pb-3">Välkommen till Kaffe Party!</h1>
+    <main class="container mt-3 flex-grow-1">
+        <nav class="d-none d-md-flex" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item breadcrumb-link"><a href="index.html">Hem</a></li>
+                <li class="breadcrumb-item breadcrumb-link"><a href="products.html">Produkter</a></li>
+                <li class="breadcrumb-item breadcrumb-link active" aria-current="page">Om oss</li>
+            </ol>
+        </nav>
+        <h1 class="display-4 text-cinnamon text-center pb-3 fw-medium">Om oss</h1>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h2 class="text-cinnamon text-center">Vårt företag</h2>
+                <p class="text-espresso">Kaffe Party grundades år 2023 med en vision att göra varje kaffekopp till en
+                    unik och memorerlig upplevelse. Vi är en grupp passionerade kaffeälskare som tror på att god kaffe
+                    är mer än bara en dryck – det är en konstform. Varje steg i vår process, från bönans ursprung till
+                    din kopp, är utförts med oöverträffad passion och omsorg.</p>
+                <p class="text-espresso">Vi erbjuder en bred utbud av kaffemaskiner och kaffeparty för både företag och
+                    privatpersoner. Våra kaffemaskiner är av högsta kvalitet, designade för att ge dig den bästa möjliga
+                    kaffeupplevelsen. Vår kaffe är direkt importerad från de mest exklusiva plantagerna runt om i
+                    världen, där vi arbetar tätt med små, lokala producenter för att säkerställa att vår kaffe inte bara
+                    smakar utmärkt, utan också är hållbar och etiskt producerad.</p>
+                <p class="text-espresso">Vi tror på att varje kaffekopp ska vara en upplevelse för både smak och sinnen.
+                    Vårt mål är att skapa en unik kaffeupplevelse för både smak och sinnen. Vi strävar efter att
+                    leverera högkvalitetskaffe och att våra värderingar – hållbarhet, kvalitet, kundnöje och innovation
+                    – styr allt vi gör. Vi tror på att god kaffe bör vara tillgänglig för alla och är alltid på jakt
+                    efter förbättringar.</p>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h2 class="text-cinnamon text-center">Våra Värderingar</h2>
+                <p class="text-espresso">Vi tror på att god kaffe bör vara tillgänglig för alla och att varje kaffekopp
+                    ska vara en upplevelse. Därför fokuserar vi på att leverera kaffe av högsta kvalitet och att skapa
+                    en unik upplevelse för våra kunder.</p>
+                <p class="text-espresso">Våra värderingar är:</p>
+                <ul class="text-espresso">
+                    <li><strong>Hållbarhet:</strong> Vi arbetar med hållbara praxis och stöder små, lokala producenter
+                        för att säkerställa att vår kaffeodysse är både god och god för vår planet.</li>
+                    <li><strong>Kvalitet:</strong> Vårt kaffe och våra maskiner är av högsta kvalitet. Vi strävar efter
+                        att leverera det bästa, från bönans ursprung till din kopp.</li>
+                    <li><strong>Kundnöje:</strong> Våra kunder är vår prioritet. Vi strävar efter att ge dem den bästa
+                        möjliga upplevelse, varje gång.</li>
+                    <li><strong>Innovation:</strong> Vi är alltid på jakt efter nya sätt att förbättra vår produkt och
+                        tjänster, för att vara i framkant av kaffevärlden.</li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="d-flex flex-column align-items-center">
+                    <h2 class="text-cinnamon">CTO - Lucía Reyes</h2>
+                    <div class="d-md-flex flex-column">
+                        <img src="/images/CTO.png" class="img-fluid rounded-circle mb-2" alt="Lucìa Reyes" width="250"
+                            height="250">
+                    </div>
+                    <p class="text-espresso fw-medium fst-italic ">Lucía Reyes har över 10 års erfarenhet inom
+                        kaffesektorn och är
+                        en passionerad barista. Hon leder vårt team med sin vision om att göra varje kaffekopp till en
+                        unik upplevelse.</p>
+                    <p class="text-espresso fw-medium">Kontakt: <a href="mailto:lucía.reyes@kaffeparty.com"
+                            class="text-espresso">lucia.reyes@kaffeparty.com</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="d-flex flex-column align-items-center">
+                    <h2 class="text-cinnamon">HR-ansvarig - Henrik Gustavsson</h2>
+                    <div class="d-md-flex flex-column">
+                        <img src="/images/HR.png" class="img-fluid rounded-circle mb-2" alt="Henrik Gustavsson" width="250"
+                            height="250">
+                    </div>
+                    <p class="text-espresso fw-medium fst-italic">Henrik Gustavsson har över 25 års erfarenhet inom
+                        personalhantering och utbildning. Han ser till att vårt team är vältränat och redo att ge dig
+                        den bästa kaffeupplevelsen.</p>
+                    <p class="text-espresso fw-medium">Kontakt: <a href="mailto:henrik.gustavsson@kaffeparty.com"
+                            class="text-espresso">johan@kaffeparty.com</a></p>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <footer class="bg-darkroast text-white py-3 mt-5">
-        <div class="container text-center">
-            <p>&copy; <span id="year"></span> Kaffeparty AB. Alla rättigheter reserverade.</p>
-            <p>Webmaster: Maria Toledo</p>
+    <footer class="bg-darkroast text-cinnamon text-center py-2 mt-3">
+        <div class="container">
+            <p class="mb-1">&copy; <span id="year"></span> Kaffeparty AB. Alla rättigheter reserverade.</p>
+            <p class="mb-0">Webmaster: Maria Toledo</p>
         </div>
     </footer>
+    <script>
+        // Uppdaterar år automatiskt
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 
     <script>
         // Uppdaterar år automatiskt
